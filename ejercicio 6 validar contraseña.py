@@ -9,3 +9,33 @@ contrasena= input('Ingrese su contraseña:  \n(Que tenga al menos 8 caracteres, 
 if  len(contrasena)>=8:
    # print ("es mayor a 8 caracteres")
     indicador = True
+
+
+
+'''import re
+
+def validar_contrasena(contrasena):
+    # Longitud mínima de 8 caracteres
+    if len(contrasena) < 8:
+        return False
+    
+    # Al menos una letra mayúscula, una letra minúscula, un número y un carácter especial
+    if not re.search(r'[A-Z]', contrasena):
+        return False
+    if not re.search(r'[a-z]', contrasena):
+        return False
+    if not re.search(r'[0-9]', contrasena):
+        return False
+    if not re.search(r'[!@#$%^&*()\-_=+{};:,<.>]', contrasena):
+        return False
+    
+    return True
+
+# Solicitar contraseña al usuario
+contrasena = input("Por favor, ingrese su contraseña: ")
+
+# Validar la contraseña ingresada
+if validar_contrasena(contrasena):
+    print("La contraseña es válida.")
+else:
+    print("La contraseña no cumple con los requisitos.")'''
