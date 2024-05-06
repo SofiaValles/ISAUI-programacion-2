@@ -12,5 +12,5 @@ factorial= numero - vueltas
 
 while numero <= numero:
     vueltas= vueltas +1
-    acumulador = []
+    acumulador.append(numero)
     
