@@ -3,19 +3,17 @@
 #Debe contener al menos una letra mayúscula, una letra minúscula, un número y un carácter especial (por ejemplo, !, @, #, $, %, etc.). 
 #El programa debe informar al usuario si la contraseña es válida o no.
 
-contrasena= input('Ingrese su contraseña:  \n(Que tenga al menos 8 caracteres, una mayúscula, una minúscula, un número y un caracter especial) ')
-
-
-if  len(contrasena)>=8:
+#---------------------------------------intento anterior de programa-----------------------------------------------------------------------------------
+#import re
+#contrasena= input('Ingrese su contraseña:  \n(Que tenga al menos 8 caracteres, una mayúscula, una minúscula, un número y un caracter especial) ')
+#if  len(contrasena)>=8:
    # print ("es mayor a 8 caracteres")
-    indicador = True
-
-
-
-'''import re
+    #indicador = True 
+#----------------------------------------------------solución----------------------------------------------------------------------------------------
+import re
 
 def validar_contrasena(contrasena):
-    # Longitud mínima de 8 caracteres
+    
     if len(contrasena) < 8:
         return False
     
@@ -32,10 +30,19 @@ def validar_contrasena(contrasena):
     return True
 
 # Solicitar contraseña al usuario
-contrasena = input("Por favor, ingrese su contraseña: ")
+contrasena = input("Ingrese su contraseña:  \n(Que tenga al menos 8 caracteres, una mayúscula, una minúscula, un número y un caracter especial: ")
 
 # Validar la contraseña ingresada
 if validar_contrasena(contrasena):
     print("La contraseña es válida.")
 else:
-    print("La contraseña no cumple con los requisitos.")'''
+    print("La contraseña no cumple con los requisitos.")
+
+
+
+
+#if  len(contrasena)>=8:
+   # print ("es mayor a 8 caracteres")
+   # indicador = True
+
+
