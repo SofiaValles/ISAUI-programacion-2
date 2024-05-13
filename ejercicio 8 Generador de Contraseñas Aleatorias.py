@@ -11,7 +11,7 @@ numero = random.choices("0123456789")
 especial = random.choices("[!,¡?¿*@.;:]")
 
 largocontra= random.randint(12,16) 
-contrasena= '' 
+contrasena=""  
 
 for i in range(largocontra):
     contrasena += random.choice(minus + mayus + numero + especial)
