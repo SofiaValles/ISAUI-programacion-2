@@ -39,10 +39,3 @@ else:
     print("La contraseña no cumple con los requisitos.")
 
 
-
-
-#if  len(contrasena)>=8:
-   # print ("es mayor a 8 caracteres")
-   # indicador = True
-
-
