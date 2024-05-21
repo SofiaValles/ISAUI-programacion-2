@@ -11,6 +11,6 @@ def ConvertirEspaciado(texto):
     return lista
 
 
-texto = input("Ingrese un texto: ")
+texto = input(" Hola! Ingrese un texto para agregarle espacios: ")
 texto_espaciado = ConvertirEspaciado(texto)
-print("Texto con espacios adicionales:", texto_espaciado)
+print("Aquí está su texto con espacios adicionales: ", texto_espaciado)
