@@ -12,7 +12,8 @@ dicc={ "a": 1,
     "b": 2,
     "c": 3,
     "d": 4}
-lista= {"a": 1,
-    "c": 3}
+# lista= {"a": 1,
+#     "c": 3}
+lista=["a","d"]
 resultado= Filtrar_Diccionario(dicc,lista)
 print("Su nuevo dicc. con las claves especificadas es: ", resultado)
