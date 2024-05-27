@@ -1,1 +1,24 @@
-#problemas para resolver ejercicio 7 de listas
+#problemas para resolver ejercicio 7 de listas y ej 2 de diccionarios
+
+
+ej 2  dicc
+
+#2. Diccionario inverso: Escribe una función que tome un diccionario y devuelva uno
+#nuevo que invierta las claves y los valores.
+def Diccionario_Inverso (diccionario):
+    diccionario_nuevo= {}
+
+
+
+    return diccionario_nuevo
+#claves invertidas
+{   "a": 1,
+    "b": 2,
+    "c": 3
+}
+Invertirlo resultaría en:
+{
+    1: "a",
+    2: "b",
+    3: "c"
+}
